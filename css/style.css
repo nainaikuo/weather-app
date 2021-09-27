@@ -1,0 +1,129 @@
+.content {
+  width: 600px;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+.content h1 {
+  color: #333333;
+  letter-spacing: 1px;
+}
+.content .big {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  width: 600px;
+}
+.content .big .box {
+  width: 180px;
+  height: 220px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #FFF;
+  box-shadow: 0 8px 8px #808080;
+}
+.content .big .box .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  font-size: 14px;
+}
+.content .big .box .temper {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .big .box .temper h2 {
+  text-align: center;
+  font-size: 72px;
+  line-height: 0;
+}
+.content .big .box .temper h2 span {
+  font-size: 14px;
+}
+.content .big .box .bottom {
+  display: flex;
+  justify-content: space-between;
+  line-height: 0;
+  padding: 0 10px;
+  font-size: 12px;
+}
+.content .big .sun {
+  background: linear-gradient(#0453ED, #38E2F9);
+}
+.content .big .rain {
+  background: #200063;
+}
+.content .big .thunder {
+  background: linear-gradient(#00E7CB, #28007E);
+}
+.content .small {
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.content .small .box {
+  width: 260px;
+  height: 65px;
+  border-radius: 8px;
+  color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  box-sizing: border-box;
+  box-shadow: 0 8px 8px #808080;
+  margin-top: 20px;
+}
+.content .small .box .left {
+  line-height: 0.5;
+}
+.content .small .box .left .location {
+  font-size: 10px;
+}
+.content .small .box .left .time {
+  font-size: 12px;
+}
+.content .small .box .right {
+  display: flex;
+  align-items: center;
+}
+.content .small .box .right svg {
+  margin-right: 10px;
+}
+.content .small .box .right h2 {
+  font-size: 24px;
+}
+.content .small .box .right h2 span {
+  font-size: 12px;
+}
+.content .small .sun {
+  background: linear-gradient(-90deg, #0453ED, #38E2F9);
+}
+.content .small .thunder {
+  background: linear-gradient(90deg, #00E7CB, #28007E);
+}
+.content .small .night {
+  background: #333333;
+}
+.content .small .rain {
+  background: #200063;
+}
+
+svg {
+  filter: drop-shadow(0 2px 2px #28007E);
+}
+svg circle {
+  fill: #FFC700;
+}
+svg path.thunder {
+  fill: #FFC700;
+  transform: translateX(5px);
+}/*# sourceMappingURL=style.css.map */
